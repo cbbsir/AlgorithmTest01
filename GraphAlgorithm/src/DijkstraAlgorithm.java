@@ -4,6 +4,9 @@ public class DijkstraAlgorithm {
 	public static void main(String[] args) {
 		char[] vertex = {'A','B','C','D','E','F','G'};
 		//ÁÚ½Ó¾ØÕó
+		
+		
+		
 		int[][] martrix =new int[vertex.length][vertex.length];
 		final int N = 65535;
 		martrix[0] = new int[] {N,5,7,N,N,N,2};
